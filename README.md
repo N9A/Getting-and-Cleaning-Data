@@ -22,7 +22,7 @@ The data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-I should also give the credit to one of the classmate whose notes helped me a lot in this project.  More information about the notes/clarification can be found following link:
+I should also give the credit to one of the classmates whose notes helped me a lot in this project.  More information about the notes/clarification can be found following link:
 
 https://drive.google.com/file/d/0B1r70tGT37UxYzhNQWdXS19CN1U/view?pref=2&pli=1
 
