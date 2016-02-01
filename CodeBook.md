@@ -30,24 +30,6 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
-
 The set of variables that were estimated from these signals are: 
 
 mean(): Mean value
@@ -72,9 +54,13 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 
 For 1st task, the test data train data were combined using rbind function.
+
 For 2nd task, the measurements which the variables contain either std, or mean were extracted.
+
 For 3rd task, the original data set was merged with Activity text file to see the subjects’ activities.
+
 For 4th task, the labels were cleaned.
+
 For 5th task, each subject and each activity were grouped and calculated mean value to get the tidy data set.  
 
 # Variables in Tidy data set in step 5
